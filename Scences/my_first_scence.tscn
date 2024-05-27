@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmodev3djh3vi"]
+
+[ext_resource type="Texture2D" uid="uid://co5ly2lnbf1eu" path="res://icon.svg" id="1_8c4gf"]
+[ext_resource type="PackedScene" uid="uid://37vag1etw7nv" path="res://Scences/Character/captain_nose.tscn" id="2_cxrtv"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="3_q470i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1tqas"]
+size = Vector2(125, 130)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hello"
+
+[node name="Floor" type="Sprite2D" parent="."]
+position = Vector2(567, 600)
+scale = Vector2(9.10938, 1)
+texture = ExtResource("1_8c4gf")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor/StaticBody2D"]
+position = Vector2(0.5, -3)
+shape = SubResource("RectangleShape2D_1tqas")
+
+[node name="Captain_Nose" parent="." instance=ExtResource("2_cxrtv")]
+position = Vector2(568, 525)
+_acceleration = 16.0
+
+[node name="Player" type="Node" parent="Captain_Nose"]
+script = ExtResource("3_q470i")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(568, 463)
+zoom = Vector2(3, 3)
