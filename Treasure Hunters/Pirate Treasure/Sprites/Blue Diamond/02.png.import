@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgqsjip4kpu3q"
-path="res://.godot/imported/02.png-235fc614f7b5e6dd00de2cd4244aa20f.ctex"
+path="res://godot/imported/02.png-235fc614f7b5e6dd00de2cd4244aa20f.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Blue Diamond/02.png"
-dest_files=["res://.godot/imported/02.png-235fc614f7b5e6dd00de2cd4244aa20f.ctex"]
+dest_files=["res://godot/imported/02.png-235fc614f7b5e6dd00de2cd4244aa20f.ctex"]
 
 [params]
 

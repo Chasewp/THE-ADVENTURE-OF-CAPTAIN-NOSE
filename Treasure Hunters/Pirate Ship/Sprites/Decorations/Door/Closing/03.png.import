@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csw4kkgedxm6o"
-path="res://.godot/imported/03.png-9aeec7596324c482cf2f90311ddc556a.ctex"
+path="res://godot/imported/03.png-9aeec7596324c482cf2f90311ddc556a.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/03.png"
-dest_files=["res://.godot/imported/03.png-9aeec7596324c482cf2f90311ddc556a.ctex"]
+dest_files=["res://godot/imported/03.png-9aeec7596324c482cf2f90311ddc556a.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvmwr3dwg4vjn"
-path="res://.godot/imported/2.png-36a2148adc9bfcd9b2c98d2970c7a77e.ctex"
+path="res://godot/imported/2.png-36a2148adc9bfcd9b2c98d2970c7a77e.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Fire/2.png"
-dest_files=["res://.godot/imported/2.png-36a2148adc9bfcd9b2c98d2970c7a77e.ctex"]
+dest_files=["res://godot/imported/2.png-36a2148adc9bfcd9b2c98d2970c7a77e.ctex"]
 
 [params]
 

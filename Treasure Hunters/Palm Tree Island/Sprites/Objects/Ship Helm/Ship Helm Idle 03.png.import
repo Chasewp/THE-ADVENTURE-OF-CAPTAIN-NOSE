@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0hks7mqoyd6r"
-path="res://.godot/imported/Ship Helm Idle 03.png-a0005bf733347b25318bde4e14c0e6c0.ctex"
+path="res://godot/imported/Ship Helm Idle 03.png-a0005bf733347b25318bde4e14c0e6c0.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Idle 03.png"
-dest_files=["res://.godot/imported/Ship Helm Idle 03.png-a0005bf733347b25318bde4e14c0e6c0.ctex"]
+dest_files=["res://godot/imported/Ship Helm Idle 03.png-a0005bf733347b25318bde4e14c0e6c0.ctex"]
 
 [params]
 

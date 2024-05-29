@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pp0sk68myqru"
-path="res://.godot/imported/Anticipation 02.png-40493676627aa823ae5fc415d44cffd9.ctex"
+path="res://godot/imported/Anticipation 02.png-40493676627aa823ae5fc415d44cffd9.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 02.png"
-dest_files=["res://.godot/imported/Anticipation 02.png-40493676627aa823ae5fc415d44cffd9.ctex"]
+dest_files=["res://godot/imported/Anticipation 02.png-40493676627aa823ae5fc415d44cffd9.ctex"]
 
 [params]
 

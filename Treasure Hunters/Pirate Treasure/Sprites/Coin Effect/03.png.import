@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chlwcdllkt28b"
-path="res://.godot/imported/03.png-706f53c62f81debf584d285d084e36d2.ctex"
+path="res://godot/imported/03.png-706f53c62f81debf584d285d084e36d2.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Coin Effect/03.png"
-dest_files=["res://.godot/imported/03.png-706f53c62f81debf584d285d084e36d2.ctex"]
+dest_files=["res://godot/imported/03.png-706f53c62f81debf584d285d084e36d2.ctex"]
 
 [params]
 

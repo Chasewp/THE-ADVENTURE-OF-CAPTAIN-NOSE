@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btyn1j3ny2bd2"
-path="res://.godot/imported/Water Reflect Medium 04.png-7fb4733a298d84117f0d87df766323eb.ctex"
+path="res://godot/imported/Water Reflect Medium 04.png-7fb4733a298d84117f0d87df766323eb.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Palm Tree Island/Sprites/Background/Water Reflect Medium 04.png"
-dest_files=["res://.godot/imported/Water Reflect Medium 04.png-7fb4733a298d84117f0d87df766323eb.ctex"]
+dest_files=["res://godot/imported/Water Reflect Medium 04.png-7fb4733a298d84117f0d87df766323eb.ctex"]
 
 [params]
 

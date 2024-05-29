@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br1iila7recsp"
-path="res://.godot/imported/Fall 02.png-55e4d0ad9c228e87078f5999a6249722.ctex"
+path="res://godot/imported/Fall 02.png-55e4d0ad9c228e87078f5999a6249722.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/The Crusty Crew/Sprites/Dust Particles/Fall 02.png"
-dest_files=["res://.godot/imported/Fall 02.png-55e4d0ad9c228e87078f5999a6249722.ctex"]
+dest_files=["res://godot/imported/Fall 02.png-55e4d0ad9c228e87078f5999a6249722.ctex"]
 
 [params]
 

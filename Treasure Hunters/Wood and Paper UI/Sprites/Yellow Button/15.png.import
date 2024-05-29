@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn5mxleijnhg6"
-path="res://.godot/imported/15.png-84b8c119581f67942652dd2162805da2.ctex"
+path="res://godot/imported/15.png-84b8c119581f67942652dd2162805da2.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/15.png"
-dest_files=["res://.godot/imported/15.png-84b8c119581f67942652dd2162805da2.ctex"]
+dest_files=["res://godot/imported/15.png-84b8c119581f67942652dd2162805da2.ctex"]
 
 [params]
 

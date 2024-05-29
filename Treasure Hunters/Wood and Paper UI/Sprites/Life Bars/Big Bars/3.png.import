@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg04ih0kawkut"
-path="res://.godot/imported/3.png-355dfa60a44837f2c070d9bf6fed06ba.ctex"
+path="res://godot/imported/3.png-355dfa60a44837f2c070d9bf6fed06ba.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Big Bars/3.png"
-dest_files=["res://.godot/imported/3.png-355dfa60a44837f2c070d9bf6fed06ba.ctex"]
+dest_files=["res://godot/imported/3.png-355dfa60a44837f2c070d9bf6fed06ba.ctex"]
 
 [params]
 

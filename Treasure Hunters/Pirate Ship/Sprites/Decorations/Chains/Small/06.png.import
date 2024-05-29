@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://danx6nkei16l5"
-path="res://.godot/imported/06.png-d2566c7da79df51092a58c3ca4f306a1.ctex"
+path="res://godot/imported/06.png-d2566c7da79df51092a58c3ca4f306a1.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/06.png"
-dest_files=["res://.godot/imported/06.png-d2566c7da79df51092a58c3ca4f306a1.ctex"]
+dest_files=["res://godot/imported/06.png-d2566c7da79df51092a58c3ca4f306a1.ctex"]
 
 [params]
 

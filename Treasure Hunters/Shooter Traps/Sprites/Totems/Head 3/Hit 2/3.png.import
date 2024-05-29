@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvy46xh4mfoap"
-path="res://.godot/imported/3.png-aab3008f23b151ff9f7a764e74183eeb.ctex"
+path="res://godot/imported/3.png-aab3008f23b151ff9f7a764e74183eeb.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Hit 2/3.png"
-dest_files=["res://.godot/imported/3.png-aab3008f23b151ff9f7a764e74183eeb.ctex"]
+dest_files=["res://godot/imported/3.png-aab3008f23b151ff9f7a764e74183eeb.ctex"]
 
 [params]
 

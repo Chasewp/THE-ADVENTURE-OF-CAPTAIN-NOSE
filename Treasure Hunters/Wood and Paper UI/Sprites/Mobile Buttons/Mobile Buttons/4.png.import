@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btl285l3c3wmm"
-path="res://.godot/imported/4.png-7433de83ba6a61ea63ea5223438633e6.ctex"
+path="res://godot/imported/4.png-7433de83ba6a61ea63ea5223438633e6.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/4.png"
-dest_files=["res://.godot/imported/4.png-7433de83ba6a61ea63ea5223438633e6.ctex"]
+dest_files=["res://godot/imported/4.png-7433de83ba6a61ea63ea5223438633e6.ctex"]
 
 [params]
 

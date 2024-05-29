@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cghq50jkmlvf4"
-path="res://.godot/imported/04.png-4782e2bb3acfe1716cfcb91a7813cabe.ctex"
+path="res://godot/imported/04.png-4782e2bb3acfe1716cfcb91a7813cabe.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Green Diamond/04.png"
-dest_files=["res://.godot/imported/04.png-4782e2bb3acfe1716cfcb91a7813cabe.ctex"]
+dest_files=["res://godot/imported/04.png-4782e2bb3acfe1716cfcb91a7813cabe.ctex"]
 
 [params]
 

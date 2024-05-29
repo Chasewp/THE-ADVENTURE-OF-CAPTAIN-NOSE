@@ -1,0 +1,73 @@
+[gd_scene load_steps=18 format=3 uid="uid://chrgxdqewbo1u"]
+
+[ext_resource type="Script" path="res://Scripts/Mr_Craby.gd" id="1_dtyut"]
+[ext_resource type="Texture2D" uid="uid://dy4juqhisk1s2" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 01.png" id="1_syl3p"]
+[ext_resource type="Texture2D" uid="uid://cy1tehbm7ujij" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 02.png" id="2_omif2"]
+[ext_resource type="Texture2D" uid="uid://lueukdjwgbw6" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 03.png" id="3_1nq3d"]
+[ext_resource type="Texture2D" uid="uid://cb2163vd8ynx" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 04.png" id="4_emx8m"]
+[ext_resource type="Texture2D" uid="uid://dheraopkrhmsh" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 05.png" id="5_sgv4a"]
+[ext_resource type="Texture2D" uid="uid://ce4hiwpafyil1" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 06.png" id="6_p0vem"]
+[ext_resource type="Texture2D" uid="uid://c3lnamawy1tcd" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 07.png" id="7_qv86y"]
+[ext_resource type="Texture2D" uid="uid://dfiy54jufj3q4" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 08.png" id="8_2s2mq"]
+[ext_resource type="Texture2D" uid="uid://dpxb8t50un3rq" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 09.png" id="9_fl36n"]
+
+[sub_resource type="Animation" id="Animation_afbko"]
+resource_name = "Iddle"
+length = 0.9
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_syl3p"), ExtResource("2_omif2"), ExtResource("3_1nq3d"), ExtResource("4_emx8m"), ExtResource("5_sgv4a"), ExtResource("6_p0vem"), ExtResource("7_qv86y"), ExtResource("8_2s2mq"), ExtResource("9_fl36n")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_i7yx0"]
+_data = {
+"Iddle": SubResource("Animation_afbko")
+}
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_wssj6"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_82ery"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ojw0y"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ryaed"]
+states/Attack/node = SubResource("AnimationNodeStateMachine_wssj6")
+states/Attack/position = Vector2(356, 100)
+states/Dead_Ground/node = SubResource("AnimationNodeStateMachine_82ery")
+states/Dead_Ground/position = Vector2(597, 165)
+states/Dead_hit/node = SubResource("AnimationNodeStateMachine_ojw0y")
+states/Dead_hit/position = Vector2(356, 191)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tcd36"]
+
+[node name="MrCraby" type="CharacterBody2D"]
+script = ExtResource("1_dtyut")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -13)
+texture = ExtResource("9_fl36n")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
+libraries = {
+"": SubResource("AnimationLibrary_i7yx0")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="Sprite2D/AnimationPlayer"]
+tree_root = SubResource("AnimationNodeStateMachine_ryaed")
+advance_expression_base_node = NodePath("../../..")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -10)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_tcd36")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

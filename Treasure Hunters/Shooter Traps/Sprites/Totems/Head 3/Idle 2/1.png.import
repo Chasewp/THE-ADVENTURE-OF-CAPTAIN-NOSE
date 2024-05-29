@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4ppstr8qej1y"
-path="res://.godot/imported/1.png-d05053a22f3fea65c3e451369a3f3a23.ctex"
+path="res://godot/imported/1.png-d05053a22f3fea65c3e451369a3f3a23.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Idle 2/1.png"
-dest_files=["res://.godot/imported/1.png-d05053a22f3fea65c3e451369a3f3a23.ctex"]
+dest_files=["res://godot/imported/1.png-d05053a22f3fea65c3e451369a3f3a23.ctex"]
 
 [params]
 

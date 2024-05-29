@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw3ip8dtdcywp"
-path="res://.godot/imported/4.png-ea23b90d00f863c58abc9856178d64b7.ctex"
+path="res://godot/imported/4.png-ea23b90d00f863c58abc9856178d64b7.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Destroyed/4.png"
-dest_files=["res://.godot/imported/4.png-ea23b90d00f863c58abc9856178d64b7.ctex"]
+dest_files=["res://godot/imported/4.png-ea23b90d00f863c58abc9856178d64b7.ctex"]
 
 [params]
 

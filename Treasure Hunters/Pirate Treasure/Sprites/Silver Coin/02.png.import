@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl68ucjjfumcl"
-path="res://.godot/imported/02.png-eda51a1f8e92785b80ff33a9a4db39ea.ctex"
+path="res://godot/imported/02.png-eda51a1f8e92785b80ff33a9a4db39ea.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/02.png"
-dest_files=["res://.godot/imported/02.png-eda51a1f8e92785b80ff33a9a4db39ea.ctex"]
+dest_files=["res://godot/imported/02.png-eda51a1f8e92785b80ff33a9a4db39ea.ctex"]
 
 [params]
 

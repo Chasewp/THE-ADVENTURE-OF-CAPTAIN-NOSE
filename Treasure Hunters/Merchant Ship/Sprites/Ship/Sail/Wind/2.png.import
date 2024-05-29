@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dai2bju36snet"
-path="res://.godot/imported/2.png-7eba6d18e3608aa65e013f00abc2c45e.ctex"
+path="res://godot/imported/2.png-7eba6d18e3608aa65e013f00abc2c45e.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Wind/2.png"
-dest_files=["res://.godot/imported/2.png-7eba6d18e3608aa65e013f00abc2c45e.ctex"]
+dest_files=["res://godot/imported/2.png-7eba6d18e3608aa65e013f00abc2c45e.ctex"]
 
 [params]
 

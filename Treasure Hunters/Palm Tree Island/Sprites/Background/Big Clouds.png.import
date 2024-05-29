@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqjokybb8gjbq"
-path="res://.godot/imported/Big Clouds.png-884e91f962abef06906ee1e34b877a24.ctex"
+path="res://godot/imported/Big Clouds.png-884e91f962abef06906ee1e34b877a24.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png"
-dest_files=["res://.godot/imported/Big Clouds.png-884e91f962abef06906ee1e34b877a24.ctex"]
+dest_files=["res://godot/imported/Big Clouds.png-884e91f962abef06906ee1e34b877a24.ctex"]
 
 [params]
 

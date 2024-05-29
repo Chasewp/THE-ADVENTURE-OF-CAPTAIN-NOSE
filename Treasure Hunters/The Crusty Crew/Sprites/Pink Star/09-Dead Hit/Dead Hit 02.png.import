@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rmhgdcy4mp8k"
-path="res://.godot/imported/Dead Hit 02.png-492ed5acf1a3b55eaabdf3772c7b06c9.ctex"
+path="res://godot/imported/Dead Hit 02.png-492ed5acf1a3b55eaabdf3772c7b06c9.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/The Crusty Crew/Sprites/Pink Star/09-Dead Hit/Dead Hit 02.png"
-dest_files=["res://.godot/imported/Dead Hit 02.png-492ed5acf1a3b55eaabdf3772c7b06c9.ctex"]
+dest_files=["res://godot/imported/Dead Hit 02.png-492ed5acf1a3b55eaabdf3772c7b06c9.ctex"]
 
 [params]
 

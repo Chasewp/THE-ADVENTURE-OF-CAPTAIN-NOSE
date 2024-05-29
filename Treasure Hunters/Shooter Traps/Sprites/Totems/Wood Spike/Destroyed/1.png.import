@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duk1jwfid62ro"
-path="res://.godot/imported/1.png-d26ee2ef248b745f7618e96fad29d430.ctex"
+path="res://godot/imported/1.png-d26ee2ef248b745f7618e96fad29d430.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Totems/Wood Spike/Destroyed/1.png"
-dest_files=["res://.godot/imported/1.png-d26ee2ef248b745f7618e96fad29d430.ctex"]
+dest_files=["res://godot/imported/1.png-d26ee2ef248b745f7618e96fad29d430.ctex"]
 
 [params]
 

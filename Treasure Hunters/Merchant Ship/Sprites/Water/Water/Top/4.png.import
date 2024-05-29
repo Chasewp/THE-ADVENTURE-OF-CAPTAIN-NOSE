@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy3gg0n8j3ejd"
-path="res://.godot/imported/4.png-d16d34c9df707d98c800c6b04c302dbf.ctex"
+path="res://godot/imported/4.png-d16d34c9df707d98c800c6b04c302dbf.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Merchant Ship/Sprites/Water/Water/Top/4.png"
-dest_files=["res://.godot/imported/4.png-d16d34c9df707d98c800c6b04c302dbf.ctex"]
+dest_files=["res://godot/imported/4.png-d16d34c9df707d98c800c6b04c302dbf.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dns3n4g55a8rf"
-path="res://.godot/imported/Dead Ground 04.png-e94635f87b0de389f6016e3e1e59905e.ctex"
+path="res://godot/imported/Dead Ground 04.png-e94635f87b0de389f6016e3e1e59905e.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/10-Dead Ground/Dead Ground 04.png"
-dest_files=["res://.godot/imported/Dead Ground 04.png-e94635f87b0de389f6016e3e1e59905e.ctex"]
+dest_files=["res://godot/imported/Dead Ground 04.png-e94635f87b0de389f6016e3e1e59905e.ctex"]
 
 [params]
 

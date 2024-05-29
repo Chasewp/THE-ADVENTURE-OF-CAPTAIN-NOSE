@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7aog240mrlno"
-path="res://.godot/imported/04.png-a75bbd37748375d6d0462d567c838912.ctex"
+path="res://godot/imported/04.png-a75bbd37748375d6d0462d567c838912.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/04.png"
-dest_files=["res://.godot/imported/04.png-a75bbd37748375d6d0462d567c838912.ctex"]
+dest_files=["res://godot/imported/04.png-a75bbd37748375d6d0462d567c838912.ctex"]
 
 [params]
 

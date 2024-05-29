@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg3k2tea4ecc6"
-path="res://.godot/imported/03.png-9a101663dcb337edd9e4a5506d2b9ebe.ctex"
+path="res://godot/imported/03.png-9a101663dcb337edd9e4a5506d2b9ebe.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/03.png"
-dest_files=["res://.godot/imported/03.png-9a101663dcb337edd9e4a5506d2b9ebe.ctex"]
+dest_files=["res://godot/imported/03.png-9a101663dcb337edd9e4a5506d2b9ebe.ctex"]
 
 [params]
 

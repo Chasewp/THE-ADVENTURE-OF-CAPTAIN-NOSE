@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f0iokt5ufxri"
-path="res://.godot/imported/2.png-18effed57f2e945a027c0f9c14b6a9ad.ctex"
+path="res://godot/imported/2.png-18effed57f2e945a027c0f9c14b6a9ad.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Opening/2.png"
-dest_files=["res://.godot/imported/2.png-18effed57f2e945a027c0f9c14b6a9ad.ctex"]
+dest_files=["res://godot/imported/2.png-18effed57f2e945a027c0f9c14b6a9ad.ctex"]
 
 [params]
 

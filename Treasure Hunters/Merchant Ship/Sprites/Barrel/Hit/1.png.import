@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3dh2w6k48muk"
-path="res://.godot/imported/1.png-7146b1d0d79c627ca03c28de92550aee.ctex"
+path="res://godot/imported/1.png-7146b1d0d79c627ca03c28de92550aee.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Merchant Ship/Sprites/Barrel/Hit/1.png"
-dest_files=["res://.godot/imported/1.png-7146b1d0d79c627ca03c28de92550aee.ctex"]
+dest_files=["res://godot/imported/1.png-7146b1d0d79c627ca03c28de92550aee.ctex"]
 
 [params]
 

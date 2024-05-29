@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfntinyx08ejq"
-path="res://.godot/imported/1.png-78473dc97fbdb2b3a50332247cc38064.ctex"
+path="res://godot/imported/1.png-78473dc97fbdb2b3a50332247cc38064.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Wood and Paper UI/Sprites/Green Board/1.png"
-dest_files=["res://.godot/imported/1.png-78473dc97fbdb2b3a50332247cc38064.ctex"]
+dest_files=["res://godot/imported/1.png-78473dc97fbdb2b3a50332247cc38064.ctex"]
 
 [params]
 

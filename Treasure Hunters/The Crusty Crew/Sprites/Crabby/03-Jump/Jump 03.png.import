@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v6v2hympt2nm"
-path="res://.godot/imported/Jump 03.png-7e1a88f1c34924cbc970778820e68177.ctex"
+path="res://godot/imported/Jump 03.png-7e1a88f1c34924cbc970778820e68177.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/03-Jump/Jump 03.png"
-dest_files=["res://.godot/imported/Jump 03.png-7e1a88f1c34924cbc970778820e68177.ctex"]
+dest_files=["res://godot/imported/Jump 03.png-7e1a88f1c34924cbc970778820e68177.ctex"]
 
 [params]
 

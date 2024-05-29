@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dslk6upoh25kq"
-path="res://.godot/imported/5.png-f0536d51dfca2624ee0f05ce0b948a98.ctex"
+path="res://godot/imported/5.png-f0536d51dfca2624ee0f05ce0b948a98.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Idle/5.png"
-dest_files=["res://.godot/imported/5.png-f0536d51dfca2624ee0f05ce0b948a98.ctex"]
+dest_files=["res://godot/imported/5.png-f0536d51dfca2624ee0f05ce0b948a98.ctex"]
 
 [params]
 

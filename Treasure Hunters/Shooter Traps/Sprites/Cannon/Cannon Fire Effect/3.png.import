@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://borss7gd4gy27"
-path="res://.godot/imported/3.png-3acb734003cd2a9a1ed11d9bfb1b2452.ctex"
+path="res://godot/imported/3.png-3acb734003cd2a9a1ed11d9bfb1b2452.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Fire Effect/3.png"
-dest_files=["res://.godot/imported/3.png-3acb734003cd2a9a1ed11d9bfb1b2452.ctex"]
+dest_files=["res://godot/imported/3.png-3acb734003cd2a9a1ed11d9bfb1b2452.ctex"]
 
 [params]
 
