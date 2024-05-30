@@ -375,16 +375,8 @@ transitions = ["Start", "Without_Sword", SubResource("AnimationNodeStateMachineT
 
 [node name="Captain_Nose" type="CharacterBody2D"]
 script = ExtResource("1_cfs8o")
-_speed = null
 _acceleration = 600.0
-_deceleration = null
-_jump_height = null
-_air_control = null
 _jump_dust = ExtResource("2_gj4cg")
-_is_facing_left = null
-_sprite_face_left = null
-_desity = null
-_drag = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1, -12)

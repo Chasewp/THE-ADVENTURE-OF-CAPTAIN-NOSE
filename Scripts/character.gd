@@ -1,6 +1,6 @@
 class_name character extends CharacterBody2D
 
-@onready var actor : Node2D = get_parent()
+#@onready var actor : Node2D = get_parent()
 
 
 #local variable
@@ -43,7 +43,7 @@ var _jump_velocity : float
  #Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-#@onready var _sprite : Sprite2D = $Sprite2D
+@onready var _sprite : Sprite2D = $Sprite2D
 #@onready var _character_control = get_parent()
 
 #Export Combat

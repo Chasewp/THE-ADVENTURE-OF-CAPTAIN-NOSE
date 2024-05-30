@@ -37,6 +37,9 @@ text = "Hello"
 [node name="MrCraby" parent="." instance=ExtResource("2_66nla")]
 position = Vector2(568, 525)
 
+[node name="Player2" type="Node" parent="MrCraby"]
+script = SubResource("GDScript_gcruk")
+
 [node name="Captain_Nose" parent="." instance=ExtResource("2_cxrtv")]
 position = Vector2(568, 525)
 _acceleration = 16.0
