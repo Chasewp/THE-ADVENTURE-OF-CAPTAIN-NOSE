@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://cmodev3djh3vi"]
+[gd_scene load_steps=5 format=3 uid="uid://cmodev3djh3vi"]
 
 [ext_resource type="Texture2D" uid="uid://co5ly2lnbf1eu" path="res://icon.svg" id="1_8c4gf"]
-[ext_resource type="PackedScene" uid="uid://chrgxdqewbo1u" path="res://Scences/Character/Crusty_Crews/Mr_Craby/Mr_Craby.tscn" id="2_66nla"]
 [ext_resource type="PackedScene" uid="uid://37vag1etw7nv" path="res://Scences/Character/Crusty_Crews/Captain_Nose/captain_nose.tscn" id="2_cxrtv"]
 
 [sub_resource type="GDScript" id="GDScript_gcruk"]
@@ -33,12 +32,6 @@ size = Vector2(125, 130)
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Hello"
-
-[node name="MrCraby" parent="." instance=ExtResource("2_66nla")]
-position = Vector2(568, 525)
-
-[node name="Player2" type="Node" parent="MrCraby"]
-script = SubResource("GDScript_gcruk")
 
 [node name="Captain_Nose" parent="." instance=ExtResource("2_cxrtv")]
 position = Vector2(568, 525)

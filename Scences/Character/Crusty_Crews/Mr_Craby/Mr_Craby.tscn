@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://chrgxdqewbo1u"]
+[gd_scene load_steps=51 format=3 uid="uid://chrgxdqewbo1u"]
 
 [ext_resource type="Script" path="res://Scripts/Mr_Craby.gd" id="1_dtyut"]
 [ext_resource type="Texture2D" uid="uid://dy4juqhisk1s2" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/01-Idle/Idle 01.png" id="1_syl3p"]
@@ -14,11 +14,16 @@
 [ext_resource type="Texture2D" uid="uid://dhjvdn2oq4b6m" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 01.png" id="12_y5amp"]
 [ext_resource type="Texture2D" uid="uid://76skxx1ayuk7" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 02.png" id="13_gpioy"]
 [ext_resource type="Texture2D" uid="uid://3hsvddqd2c7k" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 03.png" id="14_obqyn"]
+[ext_resource type="AudioStream" uid="uid://ykqo61fk344v" path="res://Assets/Audio/13289__lukesharples__battle-sounds/Voices/209177__lukesharples__hee.wav" id="14_r4kaw"]
 [ext_resource type="Texture2D" uid="uid://bf0cnqwh8h841" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 04.png" id="15_c63i0"]
 [ext_resource type="Texture2D" uid="uid://d2qvgyik70cuy" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 05.png" id="16_nwiwx"]
 [ext_resource type="Texture2D" uid="uid://ik46xlksqk3o" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 06.png" id="17_4l3qw"]
 [ext_resource type="Texture2D" uid="uid://dx4khfrdhy01h" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/03-Jump/Jump 01.png" id="18_qncbf"]
 [ext_resource type="Texture2D" uid="uid://c8u3n4yrqs6ld" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/03-Jump/Jump 02.png" id="19_pw8b0"]
+[ext_resource type="Texture2D" uid="uid://cot7i4lgdvfkk" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/04-Fall/Fall 01.png" id="21_wr88c"]
+[ext_resource type="Texture2D" uid="uid://c4ekn58qlrl86" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/05-Ground/Ground 01.png" id="22_to3jh"]
+[ext_resource type="Texture2D" uid="uid://bo1fy8be48kgi" path="res://Treasure Hunters/The Crusty Crew/Sprites/Crabby/05-Ground/Ground 02.png" id="23_md123"]
+[ext_resource type="AudioStream" uid="uid://dxo3b0bxwxv8d" path="res://Assets/Audio/13289__lukesharples__battle-sounds/Impacts/209138__lukesharples__floor-fall.wav" id="24_ilt6h"]
 
 [sub_resource type="Animation" id="Animation_afbko"]
 resource_name = "Iddle"
@@ -37,23 +42,6 @@ tracks/0/keys = {
 "values": [ExtResource("1_syl3p"), ExtResource("2_omif2"), ExtResource("3_1nq3d"), ExtResource("4_emx8m"), ExtResource("5_sgv4a"), ExtResource("6_p0vem"), ExtResource("7_qv86y"), ExtResource("8_2s2mq"), ExtResource("9_fl36n")]
 }
 
-[sub_resource type="Animation" id="Animation_6s4nu"]
-resource_name = "run"
-length = 0.6
-step = 0.1045
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1045, 0.209, 0.3135, 0.418, 0.5225),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("12_y5amp"), ExtResource("13_gpioy"), ExtResource("14_obqyn"), ExtResource("15_c63i0"), ExtResource("16_nwiwx"), ExtResource("17_4l3qw")]
-}
-
 [sub_resource type="Animation" id="Animation_jeq8l"]
 resource_name = "jump"
 length = 0.3
@@ -69,27 +57,171 @@ tracks/0/keys = {
 "update": 1,
 "values": [ExtResource("18_qncbf"), ExtResource("19_pw8b0"), ExtResource("2_bevoo")]
 }
+tracks/1/type = "audio"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../AudioStreamPlayer2D")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"clips": [{
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource("14_r4kaw")
+}],
+"times": PackedFloat32Array(0)
+}
+tracks/1/use_blend = true
+
+[sub_resource type="Animation" id="Animation_6s4nu"]
+resource_name = "run"
+length = 0.6
+loop_mode = 1
+step = 0.1045
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1045, 0.209, 0.3135, 0.418, 0.5225),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("12_y5amp"), ExtResource("13_gpioy"), ExtResource("14_obqyn"), ExtResource("15_c63i0"), ExtResource("16_nwiwx"), ExtResource("17_4l3qw")]
+}
+
+[sub_resource type="Animation" id="Animation_irjo2"]
+resource_name = "fall"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("21_wr88c")]
+}
+
+[sub_resource type="Animation" id="Animation_5iws8"]
+resource_name = "Ground"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("22_to3jh"), ExtResource("23_md123")]
+}
+tracks/1/type = "audio"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../AudioStreamPlayer2D")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"clips": [{
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource("24_ilt6h")
+}],
+"times": PackedFloat32Array(0)
+}
+tracks/1/use_blend = true
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_i7yx0"]
 _data = {
+"Ground": SubResource("Animation_5iws8"),
 "Iddle": SubResource("Animation_afbko"),
+"fall": SubResource("Animation_irjo2"),
 "jump": SubResource("Animation_jeq8l"),
 "run": SubResource("Animation_6s4nu")
 }
 
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_srmh0"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_hspls"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_slf5i"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ysgqy"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8ld4q"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_5m4y6"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_s8u6b"]
+switch_mode = 2
+advance_mode = 2
+
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_wssj6"]
+states/Movement/node = SubResource("AnimationNodeStateMachine_srmh0")
+states/Movement/position = Vector2(431, 100)
+states/anticipation/node = SubResource("AnimationNodeStateMachine_hspls")
+states/anticipation/position = Vector2(317, -11.5205)
+states/attack/node = SubResource("AnimationNodeStateMachine_slf5i")
+states/attack/position = Vector2(550, -11.5205)
+transitions = ["Start", "Movement", SubResource("AnimationNodeStateMachineTransition_ysgqy"), "Movement", "anticipation", SubResource("AnimationNodeStateMachineTransition_8ld4q"), "anticipation", "attack", SubResource("AnimationNodeStateMachineTransition_5m4y6"), "attack", "Movement", SubResource("AnimationNodeStateMachineTransition_s8u6b")]
+graph_offset = Vector2(0, -47.2828)
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_82ery"]
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ojw0y"]
 
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_inc6r"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_81a4w"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_30746"]
+advance_mode = 2
+advance_expression = "_is_dead"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_etsni"]
+advance_mode = 2
+advance_expression = "not _is_dead"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_i26ew"]
+switch_mode = 2
+advance_mode = 2
+advance_expression = "is_on_floor()"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_lbt1p"]
+advance_mode = 2
+advance_expression = "not _is_dead"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_nngmj"]
+advance_mode = 2
+advance_expression = "_is_hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_kduyp"]
+advance_mode = 2
+advance_expression = "not _is_hit"
+
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ryaed"]
 states/Attack/node = SubResource("AnimationNodeStateMachine_wssj6")
 states/Attack/position = Vector2(356, 100)
 states/Dead_Ground/node = SubResource("AnimationNodeStateMachine_82ery")
-states/Dead_Ground/position = Vector2(597, 165)
+states/Dead_Ground/position = Vector2(759, 107)
 states/Dead_hit/node = SubResource("AnimationNodeStateMachine_ojw0y")
-states/Dead_hit/position = Vector2(356, 191)
+states/Dead_hit/position = Vector2(219, 256)
+states/Hit/node = SubResource("AnimationNodeStateMachine_inc6r")
+states/Hit/position = Vector2(200, -10.7049)
+transitions = ["Start", "Attack", SubResource("AnimationNodeStateMachineTransition_81a4w"), "Attack", "Dead_hit", SubResource("AnimationNodeStateMachineTransition_30746"), "Dead_hit", "Attack", SubResource("AnimationNodeStateMachineTransition_etsni"), "Dead_hit", "Dead_Ground", SubResource("AnimationNodeStateMachineTransition_i26ew"), "Dead_Ground", "Attack", SubResource("AnimationNodeStateMachineTransition_lbt1p"), "Attack", "Hit", SubResource("AnimationNodeStateMachineTransition_nngmj"), "Hit", "Attack", SubResource("AnimationNodeStateMachineTransition_kduyp")]
+graph_offset = Vector2(0, -94.9672)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tcd36"]
 
@@ -98,7 +230,7 @@ script = ExtResource("1_dtyut")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -13)
-texture = ExtResource("2_bevoo")
+texture = ExtResource("13_gpioy")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
 libraries = {
